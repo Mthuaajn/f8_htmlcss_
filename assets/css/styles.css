@@ -4,6 +4,12 @@
 :root {
     --primary-color: #0f1b4c;
 }
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -58,9 +64,10 @@ a {
 .hero-wrap {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     position: relative;
     background: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 105px);
 }
 .navbar {
     display: flex;
