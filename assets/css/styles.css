@@ -155,7 +155,7 @@ a {
 }
 
 .clients .images {
-    margin-top: 96px;
+    margin-top: 70px;
     display: flex;
     justify-content: space-between;
 }
@@ -163,7 +163,7 @@ a {
 .clients .images a {
     display: flex;
     align-items: center;
-    padding: 0 42px;
+    padding: 0 18px;
     height: 90px;
     border-radius: 12px;
 }
